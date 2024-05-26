@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 
+/* navigation bar styling */
 nav {
     position: fixed;
     top: 0;
@@ -29,23 +30,7 @@ nav {
     z-index: 2;
 }
 
-.navButton {
-    display: none;
-    cursor: pointer;
-}
-
-.navElements {
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-}
-
-.navElements a {
-    color: #f0f3fa;
-    text-decoration: none;
-    font-weight: bold;
-}
-
+/* logo styling started */
 .logo {
     display: flex;
     gap: 10px;
@@ -71,7 +56,31 @@ nav {
     font-size: x-small;
     font-weight: lighter;
 }
+/* logo styling ended */
 
+
+/* navigation styling in big screen devices started */
+.navElements {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navElements a {
+    color: #f0f3fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* menu button styling */
+.navButton {
+    display: none;
+    cursor: pointer;
+}
+/* navigation styling in big screen devices ended */
+
+
+/* styling for vertical navigation in mobiles started  */
 #navList {
     display: none;
     flex-direction: column;
@@ -98,7 +107,7 @@ nav {
     text-decoration: none;
     font-weight: bold;
 }
-
+/* styling for vertical navigation in mobiles ended  */
 
 main {
     padding: 20px;
@@ -185,6 +194,8 @@ footer {
     right: 0px;
 }
 
+
+/* animation given to the product image on hover */
 @keyframes rotateAnimation {
     0% {
         transform: rotate(0deg);
